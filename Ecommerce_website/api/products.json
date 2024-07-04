@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Shirts",
+    "category": "T-Shirts",
+    "brand": "trendy threads",
+    "price": 1999.99,
+    "stock": 50,
+    "description": "best quality stuff T-shirt by trendy Threads.",
+    "image": "../public/images/tshirt.png"
+  },
+  {
+    "id": 2,
+    "name": "Jeans",
+    "category": "Pants",
+    "brand": "trendy threads",
+    "price": 499.99,
+    "stock": 100,
+    "image": "../public/images/jeans.png",
+    "description": "trendy thtread's best qaulity jeans are on stock !."
+  },
+  {
+    "id": 3,
+    "name": "Dress Coat",
+    "category": "formal Dressing",
+    "brand": "trendy threads",
+    "price": 9999,
+    "stock": 30,
+    "image": "../public/images/coat.png",
+    "description": "best quality coat with pant shirt and Tie as well."
+  },
+  {
+    "id": 4,
+    "name": "polo shirt",
+    "category": "Wearables",
+    "brand": "trendy threads",
+    "price": 1999.99,
+    "stock": 20,
+    "image": "../public/images/pngwing.com.png",
+    "description": "Trendy threads's best quality polo is on stock now ."
+  },
+  {
+    "id": 5,
+    "name": "Denim Jackets",
+    "category": "jackets",
+    "brand": "trendy threads",
+    "price": 4999.99,
+    "stock": 30,
+    "image": "../public/images/sewing-denim-jacket-buttons (1).png",
+    "description": "High-quality denim jacket by Trendy threads totally value for money stuff."
+  },
+  {
+    "id": 6,
+    "name": "Watch",
+    "category": "SmartWatch",
+    "brand": "trendy threads",
+    "price": 3999.99,
+    "stock": 20,
+    "image": "../public/images/mens watch.png",
+    "description": "Smartwatch with a 1.3-inch AMOLED display, water-resistant design."
+  }
+]

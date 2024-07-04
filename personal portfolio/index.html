@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HANZALA ARSHAD </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6eaabe9508.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="/images/logo.png"  class class="logo">
+        <ul id="sideMenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About </a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-square-xmark " onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+      </nav>
+      <div class="header-text">
+        <p>FULL STACK WEB DEVELOPER</p>
+        <H1>Hi ,I am <span>Hanzala</span> Arshad <br/>From Pakistan ,</H1>
+      </div>
+    </div>
+  </div>
+  <!-- about section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/1000127982-removebg-preview.png">
+
+        </div>
+
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quia eveniet, quibusdam consequuntur excepturi repellendus labore, molestiae reprehenderit eos, eum odit nihil voluptate dolor nesciunt vel omnis corrupti consequatur perspiciatis.
+          Magni ipsum delectus quo, quasi deleniti, mollitia sed libero totam architecto quidem dolore ut maiores exercitationem sequi corporis eius accusamus cumque nostrum error neque modi voluptatem </p>
+
+          <div class="tab-titles">
+            
+            <p class="tab-links  active-link "onclick="opentab('skills')">Skills</p>
+            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Front-End Developer</span><br/>building Front-End</li>
+              <li><span>React Js</span><br/>React Developer</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents " id="experience">
+            <ul>
+              <li><span>Fresher</span><br/>just staring a front-end dev </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents " id="education">
+            <ul>
+              <li><span>2022-2026</span><br/>Currently in 6th semester of bs computer science</li>
+              <li><span>2021</span><br/>HSC-II</li>
+               <li><span>2019</span><br/>Matriculation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- services  -->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My services</h1>
+      <div class="services-list"> 
+
+        <div>
+
+          <i class="fa-solid fa-laptop-code"></i>
+           <h3>Responsive Website</h3>
+          <p>Creating websites that adjust seamlessly across various devices and screen sizes, ensuring a consistent user experience on desktops, tablets, and mobile phones.</p>
+           <a href="#">Learn More </a>
+        </div>
+
+        
+        <div>
+
+          <i class="fa-solid fa-crop-simple"></i>
+          <h3>UI/UX Design Implementation:</h3>
+          <p>Translating design mockups and wireframes into functional, interactive web pages with a focus on user experience and usability.</p>
+           <a href="#">Learn More </a>
+
+        </div>
+
+
+        
+        <div>
+          <h3>
+            <i class="fa-solid fa-gauge-high"></i>
+           <h3> Web Optimization:</h3>
+          <p>Enhancing website speed and performance by optimizing code, images, and other assets, as well as implementing best practices for fast loading times and efficient resource usage.</p>
+           <a href="#">Learn More </a>
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+          <h1 class="subtitle">My portfolio</h1>
+          <div class="work-list">
+              <div class="work">
+                  <img src="/images/ss1 1.png" alt="">
+                  <div class="layer">
+                      <h3>Tic Tac Toe</h3>
+                      <p>This is a simple Tic Tac Toe game. The UI is a clone although it has only one player and the Computer. You can check it on my GitHub.</p>
+                      <a href="https://github.com/HanzalaArshad/FRONT-END-PROJECTS/tree/main/TIC%20TAC%20TOE%20GAME"><i class="fa-solid fa-link"></i></a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="/images/ss2.png" alt="">
+                  <div class="layer">
+                      <h3>Rock Paper Scissors</h3>
+                      <p>This is a simple Rock paper scissors Game. There is one player and the computer. You can check it on my GitHub.</p>
+                      <a href="https://github.com/HanzalaArshad/FRONT-END-PROJECTS/tree/main/ROCK%20PAPER%20SCISSORS%20GAM"><i class="fa-solid fa-link"></i></a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="/images/ss3.png" alt="">
+                  <div class="layer">
+                      <h3>Currency Converter</h3>
+                      <p>This is a simple Currency Exchanger where I have used an API to handle all these functions. You can check it on my GitHub.</p>
+                      <a href="https://github.com/HanzalaArshad/FRONT-END-PROJECTS/tree/main/CURRENCY%20CONVERTER%20(API%20PROJECT)"><i class="fa-solid fa-link"></i></a>
+                  </div>
+              </div>
+              <div class="work">
+                  <img src="/images/ss4.png" alt="">
+                  <div class="layer">
+                      <h3>Amazon Clone</h3>
+                      <p>This is a practice clone of the Amazon website. You can check it on my GitHub.</p>
+                      <a href="https://github.com/HanzalaArshad/FRONT-END-PROJECTS/tree/main/AMAZON%20CLONE%20PROJECT"><i class="fa-solid fa-link"></i></a>
+                  </div>
+              </div>
+
+          </div>
+
+
+          <a href="" class="btn ">See More</a>
+      </div>
+  </div>
+
+
+  <!-- contact us  -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+
+          <h1 class="subtitle">Contact Me </h1>
+          <p> <i class="fa-solid fa-paper-plane"></i> hanzalarashad558@gmail.com</p>
+          <p> <i class="fa-solid fa-square-phone"></i> +92-3201023528</p>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/mhanzala.arain.7?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/HanzalaArshad"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/hanzala_arshad1?igsh=bmJ6NTR3dTVmdDFj"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/hanzala-arshad?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <a href="/Hanzala Arshad's CV.pdf" download  class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+
+          <form name="submit-to-google-sheet">
+
+            <input type="text" name="Name" placeholder="Your Name " required>
+            <input type="email" name="Email" id="Your Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit"  class="btn btn2" >Submit</button>
+          </form>
+
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright  <i class="fa-solid fa-copyright"></i>  Hanzala Arshad. Made For Taking Projects.</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxgVa03CsL32hmIBhdSOtiS2Lt0_6HG4dM5WgukbGTzUTGp1xDQH16RzJFsUgjjcfZb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+        
+          msg.innerHTML="Message sent successfully"
+          setTimeout( function(){
+            msg.innerHTML=""
+          },2000
+        )
+
+        form.reset()
+        })
+
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+  </html>
+  

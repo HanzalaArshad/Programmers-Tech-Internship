@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+        <div class="head-txt">
+          <p>free shiping, 30 days return or refund gurantee.</p>
+        </div>
+         <div class="sing_in_up">
+          <a href="#">SIGN IN</a>
+          <a href="#">SIGN UP</a>
+         </div>
+      </div>
+
+    </section>
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="index.html">
+        <img src="./public/images/1.png"
+            alt="Trendy Threads wesbite"
+            class="logo"
+            width="80%"
+            height="auto"
+
+        
+        
+        />
+      </a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+          <li class="nav-item"><a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue"> <i class="fa-solid fa-cart-shopping"> 0 </i> </a></li>
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+
+
+
+
+  <section class="addToCartElement">
+    <div class="container">
+      <section>
+        <div id="productCartContainer"></div>
+      </section>
+
+      <section class="productCartTotalElem">
+        <div class="productCartTotalElement">
+          <p> Summary</p>
+          <div class="productOrderTotal">
+            <div>
+              <p>Sub Total:</p>
+              <p class="productSubTotal">0</p>
+            </div>
+            <div>
+              <p>Tax:</p>
+              <p class="productTax">PKR 50</p>
+            </div>
+            <hr />
+            <div>
+              <p>Final Amount:</p>
+              <p class="productFinalTotal">0</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+
+  <template id="productCartTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [ card ]">
+        <div>
+          <span class="category"></span>
+        </div>
+        <div class="imageContainer">
+          <img class="productImage" src="" alt="" />
+        </div>
+
+        <h2 class="productName"></h2>
+
+        <p class="productPrice"></p>
+
+        <div class="stockElement">
+          <button class="cartIncrement">+</button>
+          <p class="productQuantity" data-quantity="1">1</p>
+          <button class="cartDecrement">-</button>
+        </div>
+
+        <!-- <button class="add-to-cart-button">Add To Cart</button> -->
+        <button class="add-to-cart-button remove-to-cart-button">
+          Remove
+        </button>
+      </article>
+    </div>
+  </template>
+
+        <!-- ========== Start footer Section ========== -->
+        <footer class="section-footer">
+          <div class="footer-container container">
+            <div class="content_1">
+              <img src="/public/images/1.png" alt="logo" />
+              <p>
+                Welcome to Trendy Threads, your ultimate destination for
+                best Clothing Brand in Pakistan !
+              </p>
+              <!-- <img src="https://www.google.com/search?q=naya+pay+png&sca_esv=11bc275fe299997c&rlz=1C1VDKB_enPK1077PK1077&udm=2&biw=1536&bih=730&sxsrf=ADLYWIKYd_-vywh4rdfg2fzSVwN-iXN_oA%3A1719129937179&ei=Udd3ZtfPCsKoxc8Po4C16A4&ved=0ahUKEwiXvOmJovGGAxVCVPEDHSNADe0Q4dUDCBA&uact=5&oq=naya+pay+png&gs_lp=Egxnd3Mtd2l6LXNlcnAiDG5heWEgcGF5IHBuZ0jyKFD6BliDJnAEeACQAQCYAe4CoAHWFqoBBzAuMS45LjK4AQPIAQD4AQGYAgugAuISqAIKwgIHECMYJxjqAsICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgUQABiABMICCxAAGIAEGLEDGIoFwgIKEAAYgAQYQxiKBcICDRAAGIAEGLEDGEMYigXCAgYQABgIGB7CAgcQABiABBgYwgIEEAAYHpgDDIgGAZIHBzEuMC45LjGgB-0w&sclient=gws-wiz-serp#vhid=oCOLYChA60PpQM&vssid=mosaic" alt="cards" /> -->
+            </div>
+            <div class="content_2">
+              <h4>SHOPPING</h4>
+              <a href="#">fashion store</a>
+              <a href="#">Men's Collection</a>
+              <!-- <a href="#"></a> -->
+              <a href="#">Sales & Discount</a>
+            </div>
+            <div class="content_3">
+              <h4>Experience</h4>
+              <a href="./contact.html">Contact Us</a>
+              <a href="" target="_blank">Payment Method</a>
+              <a href="" target="_blank">Delivery</a>
+              <a href="" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+              <h4>NEWSLETTER</h4>
+              <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+              <div class="f-mail">
+                <input type="email" placeholder="Your Email" />
+                <i class="bx bx-envelope"></i>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="f-design">
+            <div class="f-design-txt">
+              <p>Design and Code by Trendy Threads</p>
+            </div>
+          </div>
+        </footer>
+    
+        <!-- ========== End footer Section ========== -->
+        <script type="module" src="showAddToCartCards.js"></script>
+      </body>
+    </html>
+
+</body>
+</html>
